@@ -4,3 +4,5 @@ LABEL maintainer="Manuel Köhnlechner <info@m-k.solutions>"
 #ubuntu updaten
 RUN sudo apt-get update && apt-get dist-upgrade
 
+# Default Port 
+EXPOSE 1194/udp 
